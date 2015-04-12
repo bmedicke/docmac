@@ -4,8 +4,7 @@
 
 # add brew-cask to brew (needed to install virtual box)
 brew update
-brew tap phinze/cask
-brew install brew-cask
+brew install caskroom/cask/brew-cask
 
 # install virtual box to use as virtual machine
 brew cask install virtualbox
